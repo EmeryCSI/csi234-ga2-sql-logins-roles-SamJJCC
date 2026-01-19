@@ -1,0 +1,20 @@
+
+1.
+Select: Allows reading data
+Insert:Allows adding new rows
+Update:allows modifying existing data
+Delete:allows removing rows
+
+2: schema level permissions are when users have read access to all tables in a schema , and table level permissions are when
+they have access to a specific table.
+
+3: column permissions allow for more specific columns permisions. Like the IT example where 
+They are allowed to update employee info except for Salary in the employee Data table
+
+4: the principle of least privilege is only granting users permission they absolutley need. That means users can 
+only access information that they absolutley need and have less access to sensitive information. In this guided activity, we are granting users access 
+based on their roles and we see what certain users have access to. Some users have more access to data than others, Like HR has a lot of access and some users only have read only access.
+
+
+5:It is better to use roles because you are able to give permissions based on said role. Once roles are created and given permissions, you can give users a role and it would be easier to 
+update roles too.
